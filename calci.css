@@ -1,0 +1,38 @@
+.calculator {
+    width: 200px;
+    margin: 100px auto;
+    border: 40px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+#result {
+    width: 70%;
+    margin-bottom: 5px;
+    font-size: 24px; /* Larger font size for better visibility */
+    color: #333; /* Darker text color */
+    padding: 12px; /* Increased padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* White background */
+    box-shadow:  inset 6px 6px 5px rgba(0, 0, 0, 16); /* Light shadow */
+
+}
+
+
+.buttons button {
+    width: 55px;
+    height: 45px;
+    margin: 2px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: skyblue;
+    border-radius: 8px;
+    color: white; 
+    transition: background-color 0.3s ease; 
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 13);
+}
+
